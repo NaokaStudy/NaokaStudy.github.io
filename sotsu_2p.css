@@ -1,0 +1,109 @@
+/* 全体 */
+body {
+    font-family: serif;
+    background-color: #f0f0f0;
+} 
+li {
+    list-style: none;
+}
+
+/* ヘッダー */
+header {
+    border-bottom: 1px solid black;
+}
+.header-list {
+    width: 1000px;
+    margin: 0 auto;
+    top: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    line-height: 30px;
+}
+.header-list li {
+    float: left;
+}
+
+li {
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    
+}
+.header-list li:hover {
+    color: #e0e0e0;
+}
+
+/* メイン */
+.main-part {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-part h1 {
+    padding-top: 100px;
+}
+
+.main-contents {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5%;
+}
+.main-text {
+   padding: 25px 50px 50px 50px;
+   line-height: 30px;
+}
+.main-text h3 {
+    border-bottom: 1px solid black;
+    padding: 25px 0px 0px 10px;
+}
+.main-text p {
+    padding-top: 25px;
+}
+#text-li {
+    float: right;
+    font-size: 13px;
+}
+.main-text span {
+    padding-left: 1rem;
+}
+#daruma {
+    width: 200px;
+    height: 200px;
+    transform: rotate(-0deg);
+    margin: 50px 0; 
+}
+
+/* フッター */
+footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+}
+.footer-logo li {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px
+}
+#logo1 {
+    width: 120px;
+    height: 30px;
+    border-radius: 10%;
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    background-color: #239b76;
+}
+#logo2 {
+    width: 120px;
+    height: 30px;
+    border-radius: 10%;
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    background-color: #3b5998
+}
