@@ -1,0 +1,126 @@
+/* 全体 */
+body {
+    font-family: serif;
+    background-color: #f0f0f0;
+}
+li {
+    list-style: none;
+}
+
+/* ヘッダー */
+header {
+    border-bottom: 1px solid black;
+}
+.header-list {
+    width: 1000px;
+    margin: 0 auto;
+    top: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    line-height: 30px;
+}
+.header-list li {
+    float: left;
+}
+li {
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    color: black;    
+}
+.header-list li:hover {
+    color: #afafb0;
+    background-color: #eee;
+    transition: all linear 0.2s;
+}
+
+/* メイン */
+.main-part {
+    width: 1000px;
+    height:300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-part h1 {
+    padding-top:100px;
+}
+.main-contents {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5%;
+}
+.main-text1 {
+    padding: 70px 25px 0px 50px;
+ }
+ .main-text2 {
+     padding: 70px 25px 70px 50px;
+ }
+
+ details {
+     width: 125px;
+     height: 50px;
+     background-color: #f0f0f0;
+     border-radius: 1rem;
+     border: 1px solid #ccc;
+     line-height: 50px;
+ }
+ details[open] {
+    width: 900px;
+    height: 400px;
+    background-color: #f0f0f0;
+    transition: all linear 0.2s;
+}
+ details[open]  p {
+    width:89%;
+    height: 250px;
+    background-color: white;
+    padding: 25px;
+    margin: 25;
+}
+ summary {
+     font-size: 20px;
+     padding-left: 50px;
+     cursor: pointer;
+     list-style: none;
+ }
+summary:hover {
+    color: #afafb0;
+    border-radius: 1rem;
+    transition: all linear 0.4s;
+}
+summary::after {
+    content: "＋";
+    margin-left: -70px;
+}
+details[open] summary::after {
+    content:"－";
+}
+
+/* フッター */
+footer {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.footer-logo li {
+    float: right;
+    width: 120px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    border-radius: 10%;
+}
+#logo1 {
+    background-color: #239b76;
+}
+#logo2 {
+    background-color: #3b5998;
+    margin-right: 15px;
+}
+footer li:hover {
+    color: #e0e0e0;
+}
